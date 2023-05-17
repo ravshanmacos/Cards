@@ -24,6 +24,7 @@ struct CardsListView: View {
             SingleCardView()
         }
     }
+    
 }
 
 struct CardsListView_Previews: PreviewProvider {
