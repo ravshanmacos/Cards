@@ -16,6 +16,9 @@
 		B78CF69A2A1491690047FF57 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF6992A1491690047FF57 /* SingleCardView.swift */; };
 		B78CF69D2A1496400047FF57 /* ToolbarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF69C2A1496400047FF57 /* ToolbarSelection.swift */; };
 		B78CF69F2A1496940047FF57 /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF69E2A1496940047FF57 /* BottomToolbar.swift */; };
+		B78CF6A22A14AD980047FF57 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF6A12A14AD980047FF57 /* ResizableView.swift */; };
+		B78CF6A52A14AEC70047FF57 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF6A42A14AEC70047FF57 /* Transform.swift */; };
+		B78CF6A72A14B3530047FF57 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CF6A62A14B3530047FF57 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		B78CF6992A1491690047FF57 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
 		B78CF69C2A1496400047FF57 /* ToolbarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSelection.swift; sourceTree = "<group>"; };
 		B78CF69E2A1496940047FF57 /* BottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
+		B78CF6A12A14AD980047FF57 /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
+		B78CF6A42A14AEC70047FF57 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		B78CF6A62A14B3530047FF57 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,10 @@
 		B78CF6842A148D710047FF57 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				B78CF6A32A14AEA20047FF57 /* Model */,
 				B78CF69B2A1495FD0047FF57 /* Utills */,
 				B78CF6852A148D710047FF57 /* CardsApp.swift */,
+				B78CF6A62A14B3530047FF57 /* Operators.swift */,
 				B78CF6972A1490F70047FF57 /* Views */,
 				B78CF6892A148D730047FF57 /* Assets.xcassets */,
 				B78CF68B2A148D730047FF57 /* Preview Content */,
@@ -81,6 +89,7 @@
 		B78CF6972A1490F70047FF57 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B78CF6A02A14AD740047FF57 /* ReusableViews */,
 				B78CF6982A14911C0047FF57 /* Subviews */,
 				B78CF6872A148D710047FF57 /* ContentView.swift */,
 				B78CF6932A148F270047FF57 /* CardsListView.swift */,
@@ -104,6 +113,22 @@
 				B78CF69C2A1496400047FF57 /* ToolbarSelection.swift */,
 			);
 			path = Utills;
+			sourceTree = "<group>";
+		};
+		B78CF6A02A14AD740047FF57 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B78CF6A12A14AD980047FF57 /* ResizableView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		B78CF6A32A14AEA20047FF57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B78CF6A42A14AEC70047FF57 /* Transform.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +202,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78CF6882A148D710047FF57 /* ContentView.swift in Sources */,
+				B78CF6A72A14B3530047FF57 /* Operators.swift in Sources */,
 				B78CF6942A148F270047FF57 /* CardsListView.swift in Sources */,
+				B78CF6A22A14AD980047FF57 /* ResizableView.swift in Sources */,
 				B78CF6862A148D710047FF57 /* CardsApp.swift in Sources */,
 				B78CF69A2A1491690047FF57 /* SingleCardView.swift in Sources */,
 				B78CF69D2A1496400047FF57 /* ToolbarSelection.swift in Sources */,
 				B78CF69F2A1496940047FF57 /* BottomToolbar.swift in Sources */,
+				B78CF6A52A14AEC70047FF57 /* Transform.swift in Sources */,
 				B78CF6962A1490BC0047FF57 /* CardThumbnailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
